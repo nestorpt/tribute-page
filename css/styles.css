@@ -1,0 +1,85 @@
+   body {
+       margin: 0;
+       background-color: black;
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+   }
+   
+   #main {
+       color: white;
+       font-family: "Roboto Mono";
+       width: 100%;
+   }
+   
+   #tittle {
+       text-align: center;
+       font-size: 140px;
+       margin: 20px 0 0 0;
+   }
+   
+   #subtittle {
+       text-align: center;
+       font-size: 14px;
+       margin: 0 0 20px 0;
+   }
+   
+   #img-div {
+       margin: 0;
+   }
+   
+   #image {
+       max-width: 100%;
+   }
+   
+   #img-caption {
+       font-size: 12px;
+       text-align: center;
+   }
+   
+   #tribute-info {
+       margin: 40px 80px 40px 50px;
+       font-size: 14px;
+       text-align: justify;
+   }
+   
+   #date {
+       margin: 45px 0;
+   }
+   
+   #wiki {
+       text-align: center;
+   }
+   
+   #quote {
+       text-align: center;
+       font-style: italic;
+   }
+   
+   @media (min-width: 1280px) {
+       #subtittle {
+           font-size: 34px;
+       }
+       #img-div {
+           justify-content: center;
+           max-width: 70%;
+           margin: 0 auto;
+           overflow: hidden;
+       }
+       #image {
+           width: 100%;
+           display: block;
+           margin: 0 0 -30% 0;
+       }
+       #img-caption {
+           margin-bottom: -4px;
+       }
+       #tribute-info {
+           max-width: 50%;
+           font-size: 25px;
+           margin: 70px auto 0 auto;
+       }
+       h3 {
+           text-align: center;
+       }
+   }
